@@ -24,7 +24,7 @@ const EditContact = (props) => {
   return (
     <div className="edit-wrapper">
       <div className="add edit">
-        <h2>Edit cont</h2>
+        <h2>Edit contact</h2>
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}

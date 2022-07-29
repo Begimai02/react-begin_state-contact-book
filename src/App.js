@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 import AddContact from "./components/contacts/AddContact/AddContact";
 import ContactList from "./components/contacts/ContactList/ContactList";
 import EditContact from "./components/contacts/EditContact/EditContact";
@@ -50,6 +51,14 @@ const App = () => {
           handleSave={handleSave}
         />
       ) : null}
+      <div className="github">
+        <i>
+          Link to the source code:{" "}
+          <a href="https://github.com/Begimai02/react-begin_state-contact-book">
+            github
+          </a>{" "}
+        </i>
+      </div>
     </div>
   );
 };

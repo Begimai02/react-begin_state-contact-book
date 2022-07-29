@@ -22,7 +22,7 @@ const AddContact = (props) => {
 
   return (
     <div className="add">
-      <h2>Add cont</h2>
+      <h2>Add contact</h2>
       <input
         value={name}
         onChange={(e) => setName(e.target.value)}
